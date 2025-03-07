@@ -199,3 +199,36 @@ ol li {
     align-items: center;
     justify-content: center;
 }
+
+/* SECONDI ARTICOLI*/
+
+#secondi-articoli{
+    font-family: "Roboto", sans-serif;
+}
+
+#secondi-articoli p{
+    color: #838383;
+}
+
+#secondi-articoli h2{
+    font-weight: bold;
+}
+
+#secondi-articoli{
+    border: 2px solid black;
+    width: 830px;
+}
+#secondi-articoli figure{
+    display: flex;
+    align-items: center;
+}
+ #immagini img{
+    width: 200px;
+}
+
+.aiuto2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 100px;
+}
