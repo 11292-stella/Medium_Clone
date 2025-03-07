@@ -240,3 +240,65 @@ ol li {
     margin-left: 150px;
     margin-top: 100px;
 }
+
+/* ASIDE*/
+main {
+    position: relative;
+    width: 100%; 
+}
+
+#aside {
+    position: absolute;
+    right:70px; 
+    top: 500px;  
+    width: 500px; 
+    height: 400px; 
+    
+}
+
+#aside h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+#aside{
+    font-family: "Roboto", sans-serif;
+    color: #3f3f3fc0;
+    font-size: small;
+}
+
+
+.cont{
+
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.ultima-lista ul{
+display: flex;
+flex-wrap: wrap;
+list-style-type: none;
+
+}
+
+.ultima-lista li {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+
+
+.cont div{
+ width: 150px;
+ height: 30px;
+ border: 1px solid rgba(134, 134, 134, 0.596);
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 6px;
+
+}
+
