@@ -215,14 +215,22 @@ ol li {
 }
 
 #secondi-articoli{
-    border: 2px solid black;
+    
     width: 830px;
+}
+#secondi-articoli figure figcaption{
+    font-weight: 700;
+    font-size: small;
+}
+#secondi-articoli figure img {
+    border-radius: 30px;
 }
 #secondi-articoli figure{
     display: flex;
     align-items: center;
+    
 }
- #immagini img{
+ .immagini img{
     width: 200px;
 }
 
